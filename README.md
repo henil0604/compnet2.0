@@ -28,8 +28,6 @@ const button = new Component({
     styles: {
         minWidth: "fit-content",
         minHeight: "fit-content",
-        width: "fit-content",
-        height: "fit-content",
         padding: "10px",
         outline: "none",
         border: "none",
