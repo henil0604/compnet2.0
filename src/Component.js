@@ -47,7 +47,7 @@ class Component {
         DOM.id = this.config.id;
         DOM.name = this.config.name;
 
-        if (this.config.randomId == true) {
+        if (this.config.randomId == true && this.config.id == "") {
             DOM.id = helpers.randomBytes(11);
         }
 

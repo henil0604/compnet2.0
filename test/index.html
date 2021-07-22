@@ -17,7 +17,7 @@
 
         let dom = new Component({
             tag: "button",
-            innerHTML: "Click Me",
+            innerHTML: "Make me Red",
             styles: {
                 minWidth: "fit-content",
                 minHeight: "fit-content",
@@ -32,18 +32,10 @@
                 color: "white",
                 fontWeight: "700",
                 cursor: "pointer",
-                boxShadow: "0px 0px 3px 2px #eee",
-                $hover: {
-                    backgroundColor: "#2143C7",
-                    transform: "translateY(-4px)"
+                $hover$focus: {
+                    backgroundColor: "#FE0000",
                 }
             },
-            attributes: [
-                {
-                    name: "tabindex",
-                    value: 0
-                }
-            ]
         })
 
         console.log(dom);
