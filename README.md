@@ -24,7 +24,7 @@ ___
 
 const button = new Component({
     tag: "button",
-    innerHTML: "Hello World",
+    innerHTML: "Click Me",
     styles: {
         minWidth: "fit-content",
         minHeight: "fit-content",
@@ -34,7 +34,6 @@ const button = new Component({
         outline: "none",
         border: "none",
         borderRadius: "4px",
-        transition: ".2s",
         backgroundColor: "#2195F1",
         color: "white",
         fontWeight: "700",
