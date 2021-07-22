@@ -1,5 +1,8 @@
 module.exports = {
 
-    entry: ['./index.js']
+    entry: ['./index.js'],
 
+    output: {
+        filename: "compnet.js"
+    }
 }
