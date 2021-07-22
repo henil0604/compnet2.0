@@ -38,10 +38,7 @@ const button = new Component({
         backgroundColor: "#2195F1",
         color: "white",
         fontWeight: "700",
-        cursor: "pointer",
-        $hover$focus: {
-            backgroundColor: "#FE0000",
-        }
+        cursor: "pointer"
     },
 })
 
