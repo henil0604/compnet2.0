@@ -1,17 +1,26 @@
 {
   "name": "compnet2.0",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Easy to learn And Minimal Library to create DOM Elements with JavaScript",
   "main": "index.js",
+  "homepage": "https://github.com/henil0604/compnet2.0#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd ./test/ && start index.html",
+    "dev": "webpack --mode development --progress --watch",
+    "build": "webpack --mode production --progress"
   },
-  "keywords": [],
+  "keywords": [
+    "DOM",
+    "component",
+    "JSONDOM",
+    "components"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "crypto": "^1.0.1",
-    "events": "^3.3.0",
+    "events": "^3.3.0"
+  },
+  "devDependencies": {
     "webpack": "^5.45.1"
   }
 }
